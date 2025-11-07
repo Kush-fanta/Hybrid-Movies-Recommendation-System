@@ -102,6 +102,3 @@ This project works by saving a collection of pre-trained artifacts.
   * **`user_id_to_idx.pkl`**: (Collaborative Model) A helper dictionary that maps public-facing `userId`s to their internal row index in the `predicted_ratings_matrix`.
 
 <!-- end list -->
-
-```
-```
