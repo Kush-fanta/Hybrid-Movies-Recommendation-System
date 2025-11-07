@@ -10,7 +10,7 @@ The system uses a sophisticated hybrid model that blends four distinct recommend
 4.  **Hybrid Model:** The final model intelligently combines **Content-Based Filtering** and **Collaborative Filtering** for new users. It creates a weighted average of:
     * **Content Score:** "How similar is this movie to the genres in your profile?"
     * **General CF Score:** "How popular is this movie according to the collaborative filtering model (i.e., what do all users generally think of it)?"
-
+![Front Page Screenshot](front_page.png)
 ---
 
 ## Features
@@ -51,7 +51,7 @@ This will consume `movies.csv` and `ratings.csv` and output the following files:
 
   * `popular_movies_df.pkl`
   * `seen_movies_map.pkl`
-  * `tfidf_vectorizer.joblib`
+  * `content_based_tfidf_vectorizer.joblib`
   * `tfidf_matrix.npz`
   * `indices_map.pkl`
   * `predicted_ratings_matrix.npy`
@@ -67,10 +67,10 @@ Once all the artifact files are present in the same directory, you can run the S
   * All libraries from training.
 
 **Script:**
-Run the `app.py` script from your terminal.
+Run the `main.py` script from your terminal.
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 This will launch a local web server and open the application in your browser.
