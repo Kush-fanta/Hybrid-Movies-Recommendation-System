@@ -14,7 +14,13 @@ The system uses a sophisticated hybrid model that blends four distinct recommend
 ---
 ![Front Page Screenshot](front_page.png)
 ---
+## About the Data
 
+* **Data Files:** Contains two .csv files  `movies.csv` and `ratings.csv`.
+* **Size of Data:** Number of Mobies: 62423, Number of Ratings: 205000+
+* **Duration of Data:** Contains movies from 1880 to 2019.
+
+---
 ## Features
 
 * **Real-time Hybrid Recommendations:** Provides instant recommendations for new users.
