@@ -10,6 +10,8 @@ The system uses a sophisticated hybrid model that blends four distinct recommend
 4.  **Hybrid Model:** The final model intelligently combines **Content-Based Filtering** and **Collaborative Filtering** for new users. It creates a weighted average of:
     * **Content Score:** "How similar is this movie to the genres in your profile?"
     * **General CF Score:** "How popular is this movie according to the collaborative filtering model (i.e., what do all users generally think of it)?"
+  
+---
 ![Front Page Screenshot](front_page.png)
 ---
 
